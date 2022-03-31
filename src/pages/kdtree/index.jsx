@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Kdtree(props) {
-  return <div>点云kdtree！！！</div>
+  return <div className="content">点云kdtree！！！</div>
 }
 
 export default Kdtree

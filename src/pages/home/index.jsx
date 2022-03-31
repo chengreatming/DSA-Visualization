@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 function Home() {
   return (
-    <React.Fragment>
+    <div className="content">
       <header>
         <p>{/* Visuion of Data Structures and Algorithms Examples */}</p>
       </header>
@@ -16,7 +16,7 @@ function Home() {
           kdtree
         </NavLink>
       </p>
-    </React.Fragment>
+    </div>
   )
 }
 
